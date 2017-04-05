@@ -90,3 +90,9 @@ http://lj-dev.livejournal.com/757527.html?thread=8555799#t8555799
 - Wipe and delete author's own comments
 - Delete comments by others
 - Wipe and delete userpics
+
+## Changelog
+
+### v1 - 2017-04-05
+
+Replaces all journal entries and most of their metadata with "wiped".
