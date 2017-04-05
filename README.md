@@ -96,3 +96,9 @@ http://lj-dev.livejournal.com/757527.html?thread=8555799#t8555799
 ### v1 - 2017-04-05
 
 Replaces all journal entries and most of their metadata with "wiped".
+
+## References
+
+- LJ XML-RPC API
+    - [editevent](http://www.livejournal.com/doc/server/ljp.csp.xml-rpc.editevent.html)
+    - [props](http://www.livejournal.com/doc/server/ljp.csp.proplist.html)
