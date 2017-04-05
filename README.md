@@ -11,6 +11,10 @@ enough (LJ may keep previous copies, but deletion might take effect
 after N days.) And frankly, none of it may matter, since they could
 keep all copies forever. But it's worth a try.
 
+**Note**: Currently only the wiping is implemented, although you can
+probably delete easily from the UI. However, that might prevent you
+from later wiping and deleting comments on those posts.
+
 ## Warning
 
 This is based on https://github.com/ghewgill/ljdump so I could nab the
@@ -18,6 +22,13 @@ auth and iteration code. I *do not vouch* for this code since I have
 not read the existing code in any detail, but honestly the worst this
 thing could do (probably?) is to delete your entries without wiping
 them first.
+
+## Known bugs
+
+- Script creates a directory (named as your LJ user) in the current
+  working directory in order to store sync information, instead of in
+  a better place.
+- No detection of rate-limiting issues.
 
 ## Usage
 
